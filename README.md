@@ -33,7 +33,7 @@ k-db2 - postgres\
 k-backup
 
 
-
+по шагам как то так
 
 1. Чистая VM
        ↓
@@ -52,3 +52,37 @@ k-backup
 8. Проверяю
        ↓
 9. SNAPSHOT: ansible
+
+
+### структура в ansible
+kursovaya/
+│
+├── inventory/
+│   └── hosts.yml
+│
+├── playbooks/
+│   ├── k-front-base.yml
+│   ├── k-front.yml
+│   │
+│   ├── k-back1-base.yml
+│   ├── k-back1.yml
+│   │
+│   ├── k-back2-base.yml
+│   ├── k-back2.yml
+│   │
+│   ├── k-db1-base.yml
+│   ├── k-db1.yml
+│   │
+│   ├── k-db2-base.yml
+│   ├── k-db2.yml
+│   │
+│   ├── k-prom-base.yml
+│   ├── k-prom.yml
+│   │
+│   ├── k-glog-base.yml
+│   ├── k-glog.yml
+│   │
+│   └── k-backup-base.yml
+│       k-backup.yml
+│
+└── README.md
