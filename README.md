@@ -22,9 +22,33 @@ SE линукс отключать, но при этом с фронта сде�
 
 
 # необходимые сервера
-k-ansible\
-k-front\
-k-back\
-k-glog\
-k-prom\
-k-db\
+k-an - absible\
+k-front - nginx\
+k-back1 - wordpress\
+k-back2 - wordpress\
+k-glog - graylog\
+k-prom - prometheus\
+k-db1 - postgres\
+k-db2 - postgres\
+k-backup
+
+
+
+
+1. Чистая VM
+       ↓
+2. Базовая настройка
+       ↓
+3. SNAPSHOT: clean
+       ↓
+4. Изучаю сервис руками
+       ↓
+5. SNAPSHOT: manual
+       ↓
+6. Возвращаюсь к clean
+       ↓
+7. Пишу Ansible
+       ↓
+8. Проверяю
+       ↓
+9. SNAPSHOT: ansible
