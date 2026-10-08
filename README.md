@@ -22,15 +22,18 @@ SE линукс отключать, но при этом с фронта сде�
 
 
 # необходимые сервера
-k-an - absible\
-k-front - nginx\
-k-back1 - wordpress\
-k-back2 - wordpress\
-k-glog - graylog\
-k-prom - prometheus\
-k-db1 - postgres\
-k-db2 - postgres\
-k-backup
+k-ans - absible\
+k-front - nginx, балансировка\
+k-b1 - wordpress\
+k-b2 - wordpress\
+k-db1 - postgres, primary\
+k-db2 - postgres, replica\
+k-log - graylog\
+k-mon - prometheus\
+k-backup - резервное копирование
+k-net - маршрутизатор и wirewall для построения dmz
+
+
 
 
 по шагам как то так
