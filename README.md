@@ -91,7 +91,13 @@ kursovaya/
 └── README.md
 
 
+---------------------------------------\
+шпрагалка\
+sadmin@alp-ansible:~/projects/machine-id$ sudo nano  reset_machine_id.yml \
+sadmin@alp-ansible:~/projects/machine-id$ sudo nano inventory.ini\
+sadmin@alp-ansible:~/projects/machine-id$ sudo ansible-playbook -k -K -i inventory.ini reset_machine_id.yml \
 
+------------------------------------------\
 
 Установил машину с ansible. networkname: k-an ip: 192.168.50.206\
 Ставим Python: sudo apt install python3 python3-pip python3-dev\
