@@ -22,7 +22,7 @@ SE линукс отключать, но при этом с фронта сде�
 
 
 # необходимые сервера
-k-ans - absible\
+k-ans - absible - поставил чистую ОС - \
 k-front - nginx, балансировка\
 k-b1 - wordpress\
 k-b2 - wordpress\
@@ -89,3 +89,8 @@ kursovaya/
 │       k-backup.yml
 │
 └── README.md
+
+
+
+
+Установил машину с ansible. networkname: k-an ip: 192.168.50.206
