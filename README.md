@@ -96,4 +96,15 @@ kursovaya/
 Установил машину с ansible. networkname: k-an ip: 192.168.50.206\
 Ставим Python: sudo apt install python3 python3-pip python3-dev\
 Ставим ansible: sudo apt install ansible\
+Создаем структуру папок:\
+mkdir kursovaya
+mkdir kursovaya/inventory
+mkdir kursovaya/playbooks
+touch kursovaya/readme.md
+touch kursovaya/inventory/hosts.yml
+
+Создаем inventory файл:\
+
+
+
 
