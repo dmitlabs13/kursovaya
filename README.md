@@ -22,8 +22,8 @@ SE линукс отключать, но при этом с фронта сде�
 
 
 # необходимые сервера
-k-ans - absible - поставил чистую ОС - \
-k-front - nginx, балансировка\
+k-ans - absible - поставил чистую ОС - сбросил ID \
+k-front - nginx, балансировка - - поставил чистую ОС - сбросил ID\
 k-b1 - wordpress\
 k-b2 - wordpress\
 k-db1 - postgres, primary\
