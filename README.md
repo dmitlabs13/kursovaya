@@ -34,6 +34,9 @@ k-backup - резервное копирование
 k-net - маршрутизатор и wirewall для построения dmz
 
 
+<img width="320" height="376" alt="image" src="https://github.com/user-attachments/assets/ff6256d5-05a4-4b81-b350-b7a2e051e6ca" />
+
+
 
 
 по шагам как то так
