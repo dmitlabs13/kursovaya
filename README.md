@@ -34,9 +34,9 @@ k-backup - резервное копирование
 k-net - маршрутизатор и wirewall для построения dmz
 
 # сети
-vmbr4 - 192.168.20.0/24
-vmbr6_sw6 - 192.168.6.0/24
-vmbr7-sw7 - 192.168.7.0/24
+vmbr4 - 192.168.20.0/24 wan\
+vmbr6_sw6 - 192.168.6.0/24 dmz\
+vmbr7-sw7 - 192.168.7.0/24 front\
 
 
 <img width="320" height="376" alt="image" src="https://github.com/user-attachments/assets/ff6256d5-05a4-4b81-b350-b7a2e051e6ca" />
