@@ -1,6 +1,8 @@
 sudo ansible-playbook -k -K -i inventory.ini reset_machine_id.yml /
 
 
+sudo nano /etc/netplan/50-cloud-init.yaml 
+
 network:
   version: 2
   ethernets:
