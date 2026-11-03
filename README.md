@@ -119,9 +119,9 @@ kursovaya/
 │   │\
 │   ├── k-db2-base.yml\
 │   ├── k-db2.yml\
-│   │
-│   ├── k-prom-base.yml
-│   ├── k-prom.yml
+│   │\
+│   ├── k-prom-base.yml\
+│   ├── k-prom.yml\
 │   │\
 │   ├── k-glog-base.yml
 │   ├── k-glog.yml
