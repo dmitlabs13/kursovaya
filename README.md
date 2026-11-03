@@ -100,36 +100,36 @@ k-net - маршрутизатор и wirewall для построения dmz. 
 
 ### структура в ansible
 kursovaya/
-│
-├── inventory/
-│   └── hosts.yml
-│
-├── playbooks/
-│   ├── k-front-base.yml
-│   ├── k-front.yml
-│   │
-│   ├── k-back1-base.yml
-│   ├── k-back1.yml
-│   │
-│   ├── k-back2-base.yml
-│   ├── k-back2.yml
-│   │
-│   ├── k-db1-base.yml
-│   ├── k-db1.yml
-│   │
-│   ├── k-db2-base.yml
-│   ├── k-db2.yml
+│\
+├── inventory/\
+│   └── hosts.yml\
+│\
+├── playbooks/\
+│   ├── k-front-base.yml\
+│   ├── k-front.yml\
+│   │\
+│   ├── k-back1-base.yml\
+│   ├── k-back1.yml\
+│   │\
+│   ├── k-back2-base.yml\
+│   ├── k-back2.yml\
+│   │\
+│   ├── k-db1-base.yml\
+│   ├── k-db1.yml\
+│   │\
+│   ├── k-db2-base.yml\
+│   ├── k-db2.yml\
 │   │
 │   ├── k-prom-base.yml
 │   ├── k-prom.yml
-│   │
+│   │\
 │   ├── k-glog-base.yml
 │   ├── k-glog.yml
 │   │
-│   └── k-backup-base.yml
-│       k-backup.yml
-│
-└── README.md
+│   └── k-backup-base.yml\
+│       k-backup.yml\
+│\
+└── README.md\
 
 
 ---------------------------------------\
