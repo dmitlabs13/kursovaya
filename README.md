@@ -57,10 +57,10 @@ k-net - маршрутизатор и wirewall для построения dmz. 
 |---|---|---|---|
 | `k-net` | Router / Firewall | `192.168.50.204` (WAN) | `192.168.50.1` |
 |       | | | |
-|       |'DMZ' | | |
+|  `DMZ`     | | | |
 | `k-front` | Nginx / Load Balancer | `192.168.6.10` | `192.168.6.1` |
 |       | | | |
-|       | |'INTERNAL' | |
+|  `INTERNAL`     | | | |
 | `k-b1` | WordPress Backend 1 | `192.168.7.11` | `192.168.7.1` |
 | `k-b2` | WordPress Backend 2 | `192.168.7.12` | `192.168.7.1` |
 | `k-db1` | PostgreSQL Primary | `192.168.7.21` | `192.168.7.1` |
