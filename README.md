@@ -102,7 +102,7 @@ k-net - маршрутизатор и wirewall для построения dmz. 
 kursovaya/
 │\
 ├── inventory/\
-│   └── hosts.yml\
+│   └── inventory.ini\
 │\
 ├── playbooks/\
 │   ├── k-front-base.yml\
