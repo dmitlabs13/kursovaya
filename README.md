@@ -151,6 +151,31 @@ touch kursovaya/readme.md
 touch kursovaya/inventory/hosts.yml
 
 Создаем inventory файл:\
+[front]\
+k-front ansible_host=192.168.6.10\
+
+[b]\
+k-b1 ansible_host=192.168.7.11\
+k-b2 ansible_host=192.168.7.12\
+
+[db]\
+k-db1 ansible_host=192.168.7.21\
+k-db2 ansible_host=192.168.7.22\
+
+[mon]\
+k-mon ansible_host=192.168.7.32\
+
+[log]\
+k-log ansible_host=192.168.7.31\
+
+[backup]\
+k-backup ansible_host=192.168.7.33\
+
+[net]\
+k-net ansible_host=192.168.50.204\
+
+[all:vars]\
+ansible_user=sadmin\
 
 
 
