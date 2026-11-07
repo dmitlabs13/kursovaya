@@ -100,36 +100,46 @@ k-net - маршрутизатор и wirewall для построения dmz. 
 
 ### структура в ansible
 kursovaya/
-│\
-├── inventory/\
-│   └── inventory.ini\
-│\
-├── playbooks/\
-│   ├── k-front-base.yml\
-│   ├── k-front.yml\
-│   │\
-│   ├── k-back1-base.yml\
-│   ├── k-back1.yml\
-│   │\
-│   ├── k-back2-base.yml\
-│   ├── k-back2.yml\
-│   │\
-│   ├── k-db1-base.yml\
-│   ├── k-db1.yml\
-│   │\
-│   ├── k-db2-base.yml\
-│   ├── k-db2.yml\
-│   │\
-│   ├── k-prom-base.yml\
-│   ├── k-prom.yml\
-│   │\
-│   ├── k-glog-base.yml
-│   ├── k-glog.yml
+│
+├── inventory/
+│   └── inventory.ini
+│
+├── playbooks/
+│   ├── k-front-base.yml
+│   ├── k-front-software.yml
+│   ├── k-front-config.yml
 │   │
-│   └── k-backup-base.yml\
-│       k-backup.yml\
-│\
-└── README.md\
+│   ├── k-back1-base.yml
+│   ├── k-back1-software.yml
+│   ├── k-back1-config.yml
+│   │
+│   ├── k-back2-base.yml
+│   ├── k-back2-software.yml
+│   ├── k-back2-config.yml
+│   │
+│   ├── k-db1-base.yml
+│   ├── k-db1-software.yml
+│   ├── k-db1-config.yml
+│   │
+│   ├── k-db2-base.yml
+│   ├── k-db2-software.yml
+│   ├── k-db2-config.yml
+│   │
+│   ├── k-prom-base.yml
+│   ├── k-prom-software.yml
+│   ├── k-prom-config.yml
+│   │
+│   ├── k-glog-base.yml
+│   ├── k-glog-software.yml
+│   ├── k-glog-config.yml
+│   │
+│   ├── k-backup-base.yml
+│   ├── k-backup-software.yml
+│   └── k-backup-config.yml
+│
+├── ansible.cfg
+│
+└── README.md
 
 
 ---------------------------------------\
