@@ -99,8 +99,11 @@ k-net - маршрутизатор и wirewall для построения dmz. 
 
 
 ### структура в ansible
+
+
+
+```text
 kursovaya/
-│
 ├── inventory/
 │   └── inventory.ini
 │
@@ -140,6 +143,8 @@ kursovaya/
 ├── ansible.cfg
 │
 └── README.md
+```
+
 
 
 ---------------------------------------\
