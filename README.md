@@ -22,16 +22,16 @@ SE линукс отключать, но при этом с фронта сде�
 
 
 # необходимые сервера
-k-ans - absible - поставил чистую ОС -- сбросил ID -- \
-k-front - nginx, балансировка -- поставил чистую ОС -- сбросил ID\
+k-ans - absible\
+k-front - nginx\
 k-b1 - wordpress\
 k-b2 - wordpress\
 k-db1 - postgres, primary\
 k-db2 - postgres, replica\
 k-log - graylog\
 k-mon - prometheus\
-k-backup - резервное копирование
-k-net - маршрутизатор и wirewall для построения dmz. -- поставил чистую машину -- сделал снапшот, 
+k-backup - резервное копирование\
+k-net - маршрутизатор и wirewall для построения dmz.
 
 ## Сетевая инфраструктура
 
