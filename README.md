@@ -232,10 +232,8 @@ kursovaya/
 ## 10. Git
 
 Исходные файлы проекта, конфигурации и сценарии автоматизации хранятся в Git-репозитории:
+https://gitlab.com/dmitlabs/kursovaya-infrastructure
 
-https://gitlab.com/dmitlabs/kursovaya-infrastructure.git
-
-Основная ветка: `main`.
 
 ## 11. Проверка работоспособности
 
